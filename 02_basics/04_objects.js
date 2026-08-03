@@ -72,12 +72,63 @@ const users = [
   },
 ];
 
-console.log(users[1].email);
+// console.log(users[1].email);
 
 // Object Methods
 
-console.log(employee);
-console.log(Object.keys(employee));
-console.log(Object.values(employee));
-console.log(Object.entries(employee));
-console.log(employee.hasOwnProperty("isLoggedIn"));
+// console.log(employee);
+// console.log(Object.keys(employee));
+// console.log(Object.values(employee));
+// console.log(Object.entries(employee));
+// console.log(employee.hasOwnProperty("isLoggedIn"));
+
+
+// ##################################################################
+
+
+// Object Destructuring
+
+const course = {
+  name: "JavaScript Mastery",
+  price: 999,
+  instructor: "Hitesh Choudhary",
+};
+
+// console.log(course.instructor);
+
+// Destructuring
+
+// const { instructor } = course;
+
+const { instructor: teacher } = course;
+
+console.log(teacher);
+
+// JSON (JavaScript Object Notation)
+
+/*
+{
+  "name": "Hardik",
+  "age": 20,
+  "city": "Dehradun"
+}
+*/
+
+// JSON Array
+
+/*
+[
+  {
+    "id": 1,
+    "name": "Hardik"
+  },
+  {
+    "id": 2,
+    "name": "Rahul"
+  },
+  {
+    "id": 3,
+    "name": "Aman"
+  }
+]
+*/
